@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>菜鸟翻身</title>
+  
+  <subtitle>面向 GitHub 开发，挖掘开源的价值！</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://wuxiaolong.me/"/>
+  <updated>2020-12-14T14:29:50.350Z</updated>
+  <id>http://wuxiaolong.me/</id>
+  
+  <author>
+    <name>菜鸟翻身</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android 骨架屏效果，了解一下</title>
+    <link href="http://wuxiaolong.me/2019/05/02/AndroidSkeleton/"/>
+    <id>http://wuxiaolong.me/2019/05/02/AndroidSkeleton/</id>
+    <published>2019-05-02T01:54:41.000Z</published>
+    <updated>2020-12-14T14:29:50.350Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://img-blog.csdnimg.cn/img_convert/bb7fa4fff50d74ab1139227ef59e8198.png" alt=""></p><p>早上好，骚年，我是小菜，我的公众号「<strong>菜鸟翻身</strong>」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，欢迎关注我。</p><p>以前做应用开发时，在数据尚未加载前一般会先给用户一个提示，最简单粗暴的方式就是菊花图，大多数做法是放一张有个性的静态图，示意正在加载数据，这样体验会好些，直到出现 Skeleton Screen（中文一般叫做骨架屏）极大地提升用户感知体验。其实一开始我并不知道这个效果叫什么名字，后来在 GitHub 看到有人开源了，赶紧 Star。今天我给大家推荐几个 Skeleton Screen 相关库，来了解学习一波。</p><a id="more"></a><h2 id="ShimmerRecyclerView"><a href="#ShimmerRecyclerView" class="headerlink" title="ShimmerRecyclerView"></a>ShimmerRecyclerView</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>A custom recycler view with shimmer views to indicate that views are loading （英语渣渣，这句话始终翻译不顺/捂脸）。</p><h3 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/275c8590d04343607f9090af87548288.gif" alt=""></p><p><img src="https://img-blog.csdnimg.cn/img_convert/9874a97cef8526e5972e98a3f007b06e.gif" alt=""></p><h3 id="源码地址"><a href="#源码地址" class="headerlink" title="源码地址"></a>源码地址</h3><p><a href="https://github.com/sharish/ShimmerRecyclerView" target="_blank" rel="noopener">https://github.com/sharish/ShimmerRecyclerView</a></p><h2 id="Skeleton"><a href="#Skeleton" class="headerlink" title="Skeleton"></a>Skeleton</h2><h3 id="简介-1"><a href="#简介-1" class="headerlink" title="简介"></a>简介</h3><p>这个库提供了一种显示骨架加载视图的简便方法，它现在使用闪存动画的内存优化版本，因此速度更快，您也可以设置更大的布局动画。</p><h3 id="效果预览-1"><a href="#效果预览-1" class="headerlink" title="效果预览"></a>效果预览</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/f847a8117ea9457b3c0dd543a267abc7.gif" alt=""></p><p><img src="https://img-blog.csdnimg.cn/img_convert/089a998e7e889a3f3fbdcfd1a668a0bb.gif" alt=""></p><h3 id="源码地址-1"><a href="#源码地址-1" class="headerlink" title="源码地址"></a>源码地址</h3><p><a href="https://github.com/ethanhua/Skeleton" target="_blank" rel="noopener">https://github.com/ethanhua/Skeleton</a></p><h2 id="spruce-android"><a href="#spruce-android" class="headerlink" title="spruce-android"></a>spruce-android</h2><h3 id="简介-2"><a href="#简介-2" class="headerlink" title="简介"></a>简介</h3><p>Spruce 是一个轻量级动画库，可帮助编排屏幕上的动画。该库同时支持 iOS。</p><h3 id="效果预览-2"><a href="#效果预览-2" class="headerlink" title="效果预览"></a>效果预览</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/c5c60f4fd84500ee43944beccaaa0cc7.gif" alt=""></p><h3 id="源码地址-2"><a href="#源码地址-2" class="headerlink" title="源码地址"></a>源码地址</h3><p><a href="https://github.com/willowtreeapps/spruce-android" target="_blank" rel="noopener">https://github.com/willowtreeapps/spruce-android</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/img_convert/bb7fa4fff50d74ab1139227ef59e8198.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;早上好，骚年，我是小菜，我的公众号「&lt;strong&gt;菜鸟翻身&lt;/strong&gt;」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，欢迎关注我。&lt;/p&gt;
+&lt;p&gt;以前做应用开发时，在数据尚未加载前一般会先给用户一个提示，最简单粗暴的方式就是菊花图，大多数做法是放一张有个性的静态图，示意正在加载数据，这样体验会好些，直到出现 Skeleton Screen（中文一般叫做骨架屏）极大地提升用户感知体验。其实一开始我并不知道这个效果叫什么名字，后来在 GitHub 看到有人开源了，赶紧 Star。今天我给大家推荐几个 Skeleton Screen 相关库，来了解学习一波。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://wuxiaolong.me/categories/Android/"/>
+    
+    
+      <category term="Skeleton" scheme="http://wuxiaolong.me/tags/Skeleton/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>三款很酷很骚气的底部导航</title>
+    <link href="http://wuxiaolong.me/2019/04/02/Navigation3/"/>
+    <id>http://wuxiaolong.me/2019/04/02/Navigation3/</id>
+    <published>2019-04-02T01:54:41.000Z</published>
+    <updated>2020-12-14T14:38:14.044Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://img-blog.csdnimg.cn/img_convert/2c1995ef25a4273055b5afbb5115df4f.png" alt=""></p><p>早上好，骚年，我是小菜，我的公众号「<strong>菜鸟翻身</strong>」会推荐 GitHub 上好玩的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，<a href="https://mp.weixin.qq.com/s/wAaGvIXR6JHLw25PKTx0JA" target="_blank" rel="noopener">欢迎关注我</a>。</p><p>底部导航栏是 APP 最常用的功能之一，想最初都是自己自定义 ViewGroup 实现，后来 使用 RadioButton，在 Material Design 谷歌官方除了 TabLayout 和 Bottom Navigation， TabLayout 也是可以实现，如果设计允许，Bottom Navigation 可以直接用，最简单省事，关于 TabLayout 和 Bottom Navigation 吴小龙同学曾经有详细介绍，见：<a href="https://mp.weixin.qq.com/s/Smad1YWQQDFZb5P_nJtFNw" target="_blank" rel="noopener">Android Design Support Library 之 TabLayout</a>和 <a href="https://mp.weixin.qq.com/s/TCZmD0_w8pfu26RuQbkzuA" target="_blank" rel="noopener">Android Design Support Library 之 BottomNavigation</a>，我这里就不介绍，今天我要着重分享我在 GitHub 看到三款效果很酷的底部导航栏，骚气的让我眼前一亮的让我只能喊，卧槽，牛逼，666。</p><a id="more"></a><h2 id="ReadableBottomBar"><a href="#ReadableBottomBar" class="headerlink" title="ReadableBottomBar"></a>ReadableBottomBar</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Android 另一个 Material Design Bottom Navigation 库，所有的设计和灵感来源于 Ranjit。</p><h3 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/910b1a9e54f23783d520f76998c9bf7d.gif" alt=""></p><h3 id="源码地址"><a href="#源码地址" class="headerlink" title="源码地址"></a>源码地址</h3><p><a href="https://github.com/iammert/ReadableBottomBar" target="_blank" rel="noopener">https://github.com/iammert/ReadableBottomBar</a></p><h2 id="MeowBottomNavigation"><a href="#MeowBottomNavigation" class="headerlink" title="MeowBottomNavigation"></a>MeowBottomNavigation</h2><h3 id="简介-1"><a href="#简介-1" class="headerlink" title="简介"></a>简介</h3><p>用 kotlin 编写的 Android 的简单＆弯曲＆材料底部导航。</p><h3 id="效果预览-1"><a href="#效果预览-1" class="headerlink" title="效果预览"></a>效果预览</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/2b281bb0ff59e0b2ec0cb47b036c80c3.gif" alt=""></p><h3 id="源码地址-1"><a href="#源码地址-1" class="headerlink" title="源码地址"></a>源码地址</h3><p><a href="https://github.com/shetmobile/MeowBottomNavigation" target="_blank" rel="noopener">https://github.com/shetmobile/MeowBottomNavigation</a></p><h2 id="curved-navigation-bar"><a href="#curved-navigation-bar" class="headerlink" title="curved_navigation_bar"></a>curved_navigation_bar</h2><h3 id="简介-2"><a href="#简介-2" class="headerlink" title="简介"></a>简介</h3><p>用 Flutter 编写，可以轻松实现动画曲线导航栏。</p><h3 id="效果预览-2"><a href="#效果预览-2" class="headerlink" title="效果预览"></a>效果预览</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/5fcda45d8149471956b4b06feadbfea2.gif" alt=""></p><h3 id="源码地址-2"><a href="#源码地址-2" class="headerlink" title="源码地址"></a>源码地址</h3><p><a href="https://github.com/rafalbednarczuk/curved_navigation_bar" target="_blank" rel="noopener">https://github.com/rafalbednarczuk/curved_navigation_bar</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/img_convert/2c1995ef25a4273055b5afbb5115df4f.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;早上好，骚年，我是小菜，我的公众号「&lt;strong&gt;菜鸟翻身&lt;/strong&gt;」会推荐 GitHub 上好玩的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，&lt;a href=&quot;https://mp.weixin.qq.com/s/wAaGvIXR6JHLw25PKTx0JA&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;欢迎关注我&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;底部导航栏是 APP 最常用的功能之一，想最初都是自己自定义 ViewGroup 实现，后来 使用 RadioButton，在 Material Design 谷歌官方除了 TabLayout 和 Bottom Navigation， TabLayout 也是可以实现，如果设计允许，Bottom Navigation 可以直接用，最简单省事，关于 TabLayout 和 Bottom Navigation 吴小龙同学曾经有详细介绍，见：&lt;a href=&quot;https://mp.weixin.qq.com/s/Smad1YWQQDFZb5P_nJtFNw&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Android Design Support Library 之 TabLayout
+&lt;/a&gt;和 &lt;a href=&quot;https://mp.weixin.qq.com/s/TCZmD0_w8pfu26RuQbkzuA&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Android Design Support Library 之 BottomNavigation&lt;/a&gt;，我这里就不介绍，今天我要着重分享我在 GitHub 看到三款效果很酷的底部导航栏，骚气的让我眼前一亮的让我只能喊，卧槽，牛逼，666。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://wuxiaolong.me/categories/Android/"/>
+    
+    
+      <category term="Navigation" scheme="http://wuxiaolong.me/tags/Navigation/"/>
+    
+  </entry>
+  
+</feed>
