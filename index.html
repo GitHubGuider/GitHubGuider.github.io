@@ -332,6 +332,373 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://wuxiaolong.me/2019/07/02/uCrop/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="菜鸟翻身">
+      <meta itemprop="description" content="我的微信公众号：菜鸟翻身">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="菜鸟翻身">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/07/02/uCrop/" class="post-title-link" itemprop="url">Android 图片裁剪库 uCrop</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-07-02 09:54:41" itemprop="dateCreated datePublished" datetime="2019-07-02T09:54:41+08:00">2019-07-02</time>
+            
+
+            <!--
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2020-12-17 08:12:44" itemprop="dateModified" datetime="2020-12-17T08:12:44+08:00">2020-12-17</time>
+              -->
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Android/" itemprop="url" rel="index"><span itemprop="name">Android</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="https://smartloong.oss-cn-shanghai.aliyuncs.com/GitHub11.jpeg" alt=""></p>
+<p>早上好，骚年，我是小菜，我的公众号「<strong>菜鸟翻身</strong>」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，欢迎关注我。</p>
+<h2 id="引语"><a href="#引语" class="headerlink" title="引语"></a>引语</h2><p>现在 Android 开发，离不开图片，必然也需要图片裁剪功能，这个实现可以调用系统的裁剪，但有些产品经理可能不满意自带的裁剪效果，因此 BB，怎么办呢？我这里推荐一个 Android 图片裁剪库 uCrop，Yalantis 出品，绝壁能让产品经理闭嘴。</p>
+<h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2><p><img src="https://img-blog.csdn.net/20160921112657541" alt=""></p>
+<h2 id="使用示例"><a href="#使用示例" class="headerlink" title="使用示例"></a>使用示例</h2><p>1、引入 uCrop 库。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">allprojects &#123;</div><div class="line">   repositories &#123;</div><div class="line">      jcenter()</div><div class="line">      maven &#123; url <span class="string">"https://jitpack.io"</span> &#125;</div><div class="line">   &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><code>implementation &#39;com.github.yalantis:ucrop:2.2.4&#39;</code> -轻巧的通用解决方案。</p>
+<p><code>implementation &#39;com.github.yalantis:ucrop:2.2.4-native&#39;</code> - 获得本机代码的功能以保持图像质量（apk 大小约为 1.5 MB）。</p>
+<p>2、将 UCropActivity 添加到您的 AndroidManifest.xml 中。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&lt;activity</div><div class="line">    android:name=<span class="string">"com.yalantis.ucrop.UCropActivity"</span></div><div class="line">    android:screenOrientation=<span class="string">"portrait"</span></div><div class="line">    android:theme=<span class="string">"@style/Theme.AppCompat.Light.NoActionBar"</span>/&gt;</div></pre></td></tr></table></figure>
+<p>3、使用构建器模式配置 uCrop。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">UCrop.of(sourceUri, destinationUri)</div><div class="line">    .withAspectRatio(<span class="number">16</span>, <span class="number">9</span>)</div><div class="line">    .withMaxResultSize(maxWidth, maxHeight)</div><div class="line">    .start(context);</div></pre></td></tr></table></figure>
+<p>4、覆盖<code>onActivityResult</code>方法并处理 uCrop 结果。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@Override</span></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onActivityResult</span><span class="params">(<span class="keyword">int</span> requestCode, <span class="keyword">int</span> resultCode, Intent data)</span> </span>&#123;</div><div class="line">    <span class="keyword">if</span> (resultCode == RESULT_OK &amp;&amp; requestCode == UCrop.REQUEST_CROP) &#123;</div><div class="line">        <span class="keyword">final</span> Uri resultUri = UCrop.getOutput(data);</div><div class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (resultCode == UCrop.RESULT_ERROR) &#123;</div><div class="line">        <span class="keyword">final</span> Throwable cropError = UCrop.getError(data);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>5、混淆配置。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">-dontwarn com.yalantis.ucrop**</div><div class="line">-keep <span class="class"><span class="keyword">class</span> <span class="title">com</span>.<span class="title">yalantis</span>.<span class="title">ucrop</span>** </span>&#123; *; &#125;</div><div class="line">-keep <span class="class"><span class="keyword">interface</span> <span class="title">com</span>.<span class="title">yalantis</span>.<span class="title">ucrop</span>** </span>&#123; *; &#125;</div></pre></td></tr></table></figure>
+<h2 id="GitHub-地址"><a href="#GitHub-地址" class="headerlink" title="GitHub 地址"></a>GitHub 地址</h2><p><a href="https://github.com/Yalantis/uCrop" target="_blank" rel="noopener">https://github.com/Yalantis/uCrop</a></p>
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://wuxiaolong.me/2019/06/02/FacebookShimmer/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="菜鸟翻身">
+      <meta itemprop="description" content="我的微信公众号：菜鸟翻身">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="菜鸟翻身">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/06/02/FacebookShimmer/" class="post-title-link" itemprop="url">Facebook 开源微光效果 Shimmer</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-06-02 09:54:41" itemprop="dateCreated datePublished" datetime="2019-06-02T09:54:41+08:00">2019-06-02</time>
+            
+
+            <!--
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2020-12-17 08:10:03" itemprop="dateModified" datetime="2020-12-17T08:10:03+08:00">2020-12-17</time>
+              -->
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Android/" itemprop="url" rel="index"><span itemprop="name">Android</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p><img src="https://img-blog.csdnimg.cn/img_convert/397f2af53f15f22582f2a85a78742941.png" alt=""></p>
+<h2 id="我的引言"><a href="#我的引言" class="headerlink" title="我的引言"></a>我的引言</h2><p>早上好，骚年，我是小菜，我的公众号「<strong>菜鸟翻身</strong>」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，欢迎关注我。</p>
+<p>今天要推荐的是 Facebook 开源的闪光效果：Shimmer，它是一个 Android 库，它提供了一种向您的 Android 应用程序中的任何视图和文本添加闪光效果，在实际开发中可以用在页面加载指示器，最初是为 Facebook Home 开发的。</p>
+          <!--noindex-->
+          
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/06/02/FacebookShimmer/" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://wuxiaolong.me/2019/05/02/AndroidSkeleton/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -723,7 +1090,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -813,7 +1180,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
