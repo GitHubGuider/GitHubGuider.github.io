@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wuxiaolong.me/"/>
-  <updated>2020-12-17T00:24:40.410Z</updated>
+  <updated>2020-12-21T14:19:14.953Z</updated>
   <id>http://wuxiaolong.me/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>火爆 GitHub 的 LeetCode 刷题手册</title>
+    <link href="http://wuxiaolong.me/2020/12/02/LeetCodeCookBook/"/>
+    <id>http://wuxiaolong.me/2020/12/02/LeetCodeCookBook/</id>
+    <published>2020-12-02T01:54:41.000Z</published>
+    <updated>2020-12-21T14:19:14.953Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://img-blog.csdnimg.cn/img_convert/ae2cc0cca535b72b0721ab9bbff596fd.png" alt=""></p><p>最近不少朋友私我说大厂算法太变态了，而类似头条的公司又特别喜欢考察算法，今天我就推荐一个不错火爆 GitHub 的 LeetCode 刷题手册，GitHub Star 10.4K+。</p><p>这个 LeetCode 刷题手册是@halfrost（中文名：霜神）刷 LeetCode 时整理出的 520 题，每道题都写了解题思路，并且每题都 runtime beats 100% 了。</p><p>至于为什么要求每题都 runtime beats 100%？</p><p>霜神是这样回复的：优化到 beats 100% 才算是把这题做出感觉了。有好几道 Hard 题，可以用暴力解法 AC 了，但只 beats 了 5%，这题就如同没做一样，而且面试中如果给了暴力的答案，面试官也不会满意，通过自己的思考给出更优解，面试官也会更满意一些。</p><p>如果你把这些题解都摸透，相信在面试环节你可以从容的回答“还有没有更优解”这个问题。<br><a id="more"></a></p><p><img src="https://img-blog.csdnimg.cn/img_convert/b6fe9124efd72e040cc65d556a029921.png" alt=""></p><p>本手册目录如下：</p><p><img src="https://img-blog.csdnimg.cn/img_convert/3c3256a96cd1d421a4720302fba126cd.png" alt=""></p><p>案列介绍，非常详细：</p><p><img src="https://img-blog.csdnimg.cn/img_convert/63881818ebbe36ba4a8d986c92d0fbf9.png" alt=""></p><p>《LeetCode 刷题手册》.PDF 我已经为你整理好了，另外还收集了电子书《算法图解》，豆瓣评分：8.1，一起看看，希望能帮助你克服刷题的恐惧，顺利拿到大厂 offer。</p><p><img src="https://img-blog.csdnimg.cn/img_convert/7ba0db2fa2a7675113726d9b0cc87c21.png" alt=""></p><p><strong>如何获取？</strong></p><p>在公号「菜鸟翻身」后台回复关键字「<strong>算法</strong>」即可获取。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/img_convert/ae2cc0cca535b72b0721ab9bbff596fd.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;最近不少朋友私我说大厂算法太变态了，而类似头条的公司又特别喜欢考察算法，今天我就推荐一个不错火爆 GitHub 的 LeetCode 刷题手册，GitHub Star 10.4K+。&lt;/p&gt;
+&lt;p&gt;这个 LeetCode 刷题手册是@halfrost（中文名：霜神）刷 LeetCode 时整理出的 520 题，每道题都写了解题思路，并且每题都 runtime beats 100% 了。&lt;/p&gt;
+&lt;p&gt;至于为什么要求每题都 runtime beats 100%？&lt;/p&gt;
+&lt;p&gt;霜神是这样回复的：优化到 beats 100% 才算是把这题做出感觉了。有好几道 Hard 题，可以用暴力解法 AC 了，但只 beats 了 5%，这题就如同没做一样，而且面试中如果给了暴力的答案，面试官也不会满意，通过自己的思考给出更优解，面试官也会更满意一些。&lt;/p&gt;
+&lt;p&gt;如果你把这些题解都摸透，相信在面试环节你可以从容的回答“还有没有更优解”这个问题。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="算法" scheme="http://wuxiaolong.me/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="LeetCode" scheme="http://wuxiaolong.me/tags/LeetCode/"/>
+    
+  </entry>
   
   <entry>
     <title>Android 图片裁剪库 uCrop</title>
