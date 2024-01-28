@@ -1,86 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://wuxiaolong.me</loc>
+        <loc>https://githubguider.github.io</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>http://wuxiaolong.me/2019/12/02/Eyepetizer/</loc>
-        <lastmod>2021-01-03T02:43:14.539Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://wuxiaolong.me/2019/11/02/weibo/</loc>
-        <lastmod>2021-01-03T02:38:41.911Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://wuxiaolong.me/2019/10/02/Python-100-Days/</loc>
-        <lastmod>2021-01-03T02:35:31.015Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://wuxiaolong.me/2019/09/02/netease-cloud-music-community/</loc>
-        <lastmod>2021-01-03T02:31:17.473Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://wuxiaolong.me/2019/08/02/TencentComics/</loc>
-        <lastmod>2021-01-03T02:25:03.279Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://wuxiaolong.me/2020/12/02/LeetCodeCookBook/</loc>
-        <lastmod>2020-12-21T14:19:14.953Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://wuxiaolong.me/2019/07/02/uCrop/</loc>
-        <lastmod>2020-12-17T00:24:40.410Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://wuxiaolong.me/2019/06/02/FacebookShimmer/</loc>
-        <lastmod>2020-12-17T00:10:03.070Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://wuxiaolong.me/2019/04/02/Navigation3/</loc>
-        <lastmod>2020-12-14T14:38:14.044Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://wuxiaolong.me/2019/05/02/AndroidSkeleton/</loc>
-        <lastmod>2020-12-14T14:29:50.350Z</lastmod>
+        <loc>https://githubguider.github.io/blog1/</loc>
+        <lastmod>2024-01-28T02:55:04.949Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

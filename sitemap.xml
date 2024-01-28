@@ -2,23 +2,23 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <sitemap>
-        <loc>http://wuxiaolong.me/post-sitemap.xml</loc>
-        <lastmod>2021-01-03T02:43:14.539Z</lastmod>
+        <loc>https://githubguider.github.io/post-sitemap.xml</loc>
+        <lastmod>2024-01-28T02:55:04.949Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://wuxiaolong.me/page-sitemap.xml</loc>
-        <lastmod>2020-12-14T14:20:43.158Z</lastmod>
+        <loc>https://githubguider.github.io/page-sitemap.xml</loc>
+        <lastmod>2024-01-28T02:31:51.980Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://wuxiaolong.me/category-sitemap.xml</loc>
-        <lastmod>2020-12-21T14:19:14.953Z</lastmod>
+        <loc>https://githubguider.github.io/category-sitemap.xml</loc>
+        <lastmod>2024-01-28T02:55:04.949Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://wuxiaolong.me/tag-sitemap.xml</loc>
-        <lastmod>2020-12-14T14:29:50.350Z</lastmod>
+        <loc>https://githubguider.github.io/tag-sitemap.xml</loc>
+        <lastmod>2024-01-28T02:55:04.949Z</lastmod>
     </sitemap>
 
 </sitemapindex>

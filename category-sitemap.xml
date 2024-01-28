@@ -1,35 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://wuxiaolong.me</loc>
+        <loc>https://githubguider.github.io</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>http://wuxiaolong.me/categories/%E7%AE%97%E6%B3%95/</loc>
-        <lastmod>2020-12-21T14:19:14.953Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://wuxiaolong.me/categories/Android/</loc>
-        <lastmod>2021-01-03T02:31:17.473Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://wuxiaolong.me/categories/Python/</loc>
-        <lastmod>2021-01-03T02:35:31.015Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://wuxiaolong.me/categories/Flutter/</loc>
-        <lastmod>2021-01-03T02:43:14.539Z</lastmod>
+        <loc>https://githubguider.github.io/categories/%E5%90%8E%E7%AB%AF/</loc>
+        <lastmod>2024-01-28T02:55:04.949Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

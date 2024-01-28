@@ -1,263 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>菜鸟翻身</title>
+  <title>GitHub指北</title>
   
-  <subtitle>面向 GitHub 开发，挖掘开源的价值！</subtitle>
+  <subtitle>面向 GitHub 开发。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://wuxiaolong.me/"/>
-  <updated>2020-12-21T14:19:14.953Z</updated>
-  <id>http://wuxiaolong.me/</id>
+  <link href="https://githubguider.github.io/"/>
+  <updated>2024-01-28T02:55:04.949Z</updated>
+  <id>https://githubguider.github.io/</id>
   
   <author>
-    <name>菜鸟翻身</name>
+    <name>GitHub指北</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>火爆 GitHub 的 LeetCode 刷题手册</title>
-    <link href="http://wuxiaolong.me/2020/12/02/LeetCodeCookBook/"/>
-    <id>http://wuxiaolong.me/2020/12/02/LeetCodeCookBook/</id>
-    <published>2020-12-02T01:54:41.000Z</published>
-    <updated>2020-12-21T14:19:14.953Z</updated>
+    <title>11.3K Star，从 1 到 1.001 搭建支付系统</title>
+    <link href="https://githubguider.github.io/blog1/"/>
+    <id>https://githubguider.github.io/blog1/</id>
+    <published>2024-01-27T01:54:41.000Z</published>
+    <updated>2024-01-28T02:55:04.949Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://img-blog.csdnimg.cn/img_convert/ae2cc0cca535b72b0721ab9bbff596fd.png" alt=""></p><p>最近不少朋友私我说大厂算法太变态了，而类似头条的公司又特别喜欢考察算法，今天我就推荐一个不错火爆 GitHub 的 LeetCode 刷题手册，GitHub Star 10.4K+。</p><p>这个 LeetCode 刷题手册是@halfrost（中文名：霜神）刷 LeetCode 时整理出的 520 题，每道题都写了解题思路，并且每题都 runtime beats 100% 了。</p><p>至于为什么要求每题都 runtime beats 100%？</p><p>霜神是这样回复的：优化到 beats 100% 才算是把这题做出感觉了。有好几道 Hard 题，可以用暴力解法 AC 了，但只 beats 了 5%，这题就如同没做一样，而且面试中如果给了暴力的答案，面试官也不会满意，通过自己的思考给出更优解，面试官也会更满意一些。</p><p>如果你把这些题解都摸透，相信在面试环节你可以从容的回答“还有没有更优解”这个问题。<br><a id="more"></a></p><p><img src="https://img-blog.csdnimg.cn/img_convert/b6fe9124efd72e040cc65d556a029921.png" alt=""></p><p>本手册目录如下：</p><p><img src="https://img-blog.csdnimg.cn/img_convert/3c3256a96cd1d421a4720302fba126cd.png" alt=""></p><p>案列介绍，非常详细：</p><p><img src="https://img-blog.csdnimg.cn/img_convert/63881818ebbe36ba4a8d986c92d0fbf9.png" alt=""></p><p>《LeetCode 刷题手册》.PDF 我已经为你整理好了，另外还收集了电子书《算法图解》，豆瓣评分：8.1，一起看看，希望能帮助你克服刷题的恐惧，顺利拿到大厂 offer。</p><p><img src="https://img-blog.csdnimg.cn/img_convert/7ba0db2fa2a7675113726d9b0cc87c21.png" alt=""></p><p><strong>如何获取？</strong></p><p>在公号「菜鸟翻身」后台回复关键字「<strong>算法</strong>」即可获取。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/img_convert/ae2cc0cca535b72b0721ab9bbff596fd.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;最近不少朋友私我说大厂算法太变态了，而类似头条的公司又特别喜欢考察算法，今天我就推荐一个不错火爆 GitHub 的 LeetCode 刷题手册，GitHub Star 10.4K+。&lt;/p&gt;
-&lt;p&gt;这个 LeetCode 刷题手册是@halfrost（中文名：霜神）刷 LeetCode 时整理出的 520 题，每道题都写了解题思路，并且每题都 runtime beats 100% 了。&lt;/p&gt;
-&lt;p&gt;至于为什么要求每题都 runtime beats 100%？&lt;/p&gt;
-&lt;p&gt;霜神是这样回复的：优化到 beats 100% 才算是把这题做出感觉了。有好几道 Hard 题，可以用暴力解法 AC 了，但只 beats 了 5%，这题就如同没做一样，而且面试中如果给了暴力的答案，面试官也不会满意，通过自己的思考给出更优解，面试官也会更满意一些。&lt;/p&gt;
-&lt;p&gt;如果你把这些题解都摸透，相信在面试环节你可以从容的回答“还有没有更优解”这个问题。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="算法" scheme="http://wuxiaolong.me/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="LeetCode" scheme="http://wuxiaolong.me/tags/LeetCode/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>再来一个高仿开眼的短视频APP</title>
-    <link href="http://wuxiaolong.me/2019/12/02/Eyepetizer/"/>
-    <id>http://wuxiaolong.me/2019/12/02/Eyepetizer/</id>
-    <published>2019-12-02T01:54:41.000Z</published>
-    <updated>2021-01-03T02:43:14.539Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://img-blog.csdnimg.cn/img_convert/df1c8eebe03fae0d218e25ef6ac0643d.png" alt=""></p><p>早上好，骚年，我是小菜，我的公众号「<strong>菜鸟翻身</strong>」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值。</p><h2 id="我的引语"><a href="#我的引语" class="headerlink" title="我的引语"></a>我的引语</h2><p>这是一个高仿「开眼 Eyepetizer」的短视频 Android 客户端项目，个人觉得这款 App 的 UI 设计风格很好看，界面简洁清新，通过此项目，进行相关技术的学习与整合。<br><a id="more"></a><br>通过这个项目，你可以学习 Retrofit 网络请求框架封装、Glide Transformations 图像转换、VasSonic 提升 H5 首屏加载速度等知识。</p><p>值得一提的是，所有 UI 都是经过标注工具测量后的，无论是字体颜色、大小、间距等几乎都是像素级模仿的「开眼 Eyepetizer」Android 客户端 App，赶紧下载学习一波。</p><h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2><p><img src="https://img-blog.csdnimg.cn/img_convert/df9a9d96fef9fcb05b5938152710b6a3.png" alt=""><img src="https://img-blog.csdnimg.cn/img_convert/5d88640f1263720e77e6355c4a3d9ae9.png" alt=""><img src="https://img-blog.csdnimg.cn/img_convert/01022452def2acb3e9c2d535600b6e7b.png" alt=""></p><h2 id="GitHub-地址"><a href="#GitHub-地址" class="headerlink" title="GitHub 地址"></a>GitHub 地址</h2><p><a href="https://github.com/VIPyinzhiwei/Eyepetizer" target="_blank" rel="noopener">https://github.com/VIPyinzhiwei/Eyepetizer</a></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://smartloong.oss-cn-shanghai.aliyuncs.com/GitHub23.jpeg" alt=""></p><p>Hi，骚年，我是大 G，公众号「<strong>GitHub指北</strong>」会推荐 GitHub 上有趣有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，欢迎关注。</p><p>今天推荐一套适合互联网企业使用的开源支付系统，支持多渠道服务商和普通商户模式。已对接<code>微信支付</code>，<code>支付宝</code>，<code>云闪付</code>官方接口，支持聚合码支付。</p><h2 id="系统架构"><a href="#系统架构" class="headerlink" title="系统架构"></a>系统架构</h2><blockquote><p>Jeepay 计全支付系统架构图</p></blockquote><p><img src="https://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/jeepay_framework.png" alt="Jeepay 系统架构图" title="Jeepay 系统架构图"><br><a id="more"></a></p><blockquote><p>Jeepay 计全支付聚合码支付流程图</p></blockquote><p><img src="https://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/jeepay_qr.png" alt="Jeepay 计全支付聚合码支付流程图" title="Jeepay 计全支付聚合码支付流程图"></p><blockquote><p>核心技术栈</p></blockquote><table><thead><tr><th>软件名称</th><th>描述</th><th>版本</th></tr></thead><tbody><tr><td>Jdk</td><td>Java 环境</td><td>1.8</td></tr><tr><td>Spring Boot</td><td>开发框架</td><td>2.4.5</td></tr><tr><td>Redis</td><td>分布式缓存</td><td>3.2.8 或 高版本</td></tr><tr><td>MySQL</td><td>数据库</td><td>5.7.X 或 8.0 高版本</td></tr><tr><td>MQ</td><td>消息中间件</td><td>ActiveMQ 或 RabbitMQ 或 RocketMQ</td></tr><tr><td><a href="https://gitee.com/link?target=https%3A%2F%2Fwww.antdv.com%2Fdocs%2Fvue%2Fintroduce-cn%2F" target="_blank" rel="noopener">Ant Design Vue</a></td><td>Ant Design 的 Vue 实现，前端开发使用</td><td>2.1.2</td></tr><tr><td><a href="https://gitee.com/link?target=https%3A%2F%2Fmp.baomidou.com%2F" target="_blank" rel="noopener">MyBatis-Plus</a></td><td>MyBatis 增强工具</td><td>3.4.2</td></tr><tr><td><a href="https://gitee.com/binary/weixin-java-tools" target="_blank" rel="noopener">WxJava</a></td><td>微信开发 Java SDK</td><td>4.1.0</td></tr><tr><td><a href="https://gitee.com/link?target=https%3A%2F%2Fwww.hutool.cn%2F" target="_blank" rel="noopener">Hutool</a></td><td>Java 工具类库</td><td>5.6.6</td></tr></tbody></table><h2 id="功能模块"><a href="#功能模块" class="headerlink" title="功能模块"></a>功能模块</h2><blockquote><p>Jeepay 运营平台功能</p></blockquote><p><img src="https://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/jeepay_mgr.png" alt="Jeepay 运营平台功能" title="Jeepay 运营平台功能"></p><blockquote><p>Jeepay 商户系统功能</p></blockquote><p><img src="https://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/jeepay_mch.png" alt="Jeepay 商户系统功能" title="Jeepay 商户系统功能"></p><h2 id="系统截图"><a href="#系统截图" class="headerlink" title="系统截图"></a>系统截图</h2><p>以下截图是从实际已完成功能界面截取</p><p><img src="http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/001.png" alt="Jeepay 演示界面" title="Jeepay 演示界面"></p><p><img src="http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/023.png" alt="Jeepay 演示界面" title="Jeepay 演示界面"></p><p><img src="http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/002.png" alt="Jeepay 演示界面" title="Jeepay 演示界面"></p><p><img src="http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/005.png" alt="Jeepay 演示界面" title="Jeepay 演示界面"></p><p><img src="http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/006.png" alt="Jeepay 演示界面" title="Jeepay 演示界面"></p><p><img src="http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/009.png" alt="Jeepay 演示界面" title="Jeepay 演示界面"></p><p><img src="http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/010.png" alt="Jeepay 演示界面" title="Jeepay 演示界面"></p><p><img src="http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/011.png" alt="Jeepay 演示界面" title="Jeepay 演示界面"></p><p><img src="http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/012.png" alt="Jeepay 演示界面" title="Jeepay 演示界面"></p><p><img src="http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/013.png" alt="Jeepay 演示界面" title="Jeepay 演示界面"></p><p><img src="http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/014.png" alt="Jeepay 演示界面" title="Jeepay 演示界面"></p><p><img src="http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/015.png" alt="Jeepay 演示界面" title="Jeepay 演示界面"></p><p><img src="http://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/yanshi/022.png" alt="Jeepay 演示界面" title="Jeepay 演示界面"></p><h2 id="官网和源码"><a href="#官网和源码" class="headerlink" title="官网和源码"></a>官网和源码</h2><p>在公众号「<strong>GitHub指北</strong>」后台发消息「<strong>支付</strong>」即可获取。</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/img_convert/df1c8eebe03fae0d218e25ef6ac0643d.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;早上好，骚年，我是小菜，我的公众号「&lt;strong&gt;菜鸟翻身&lt;/strong&gt;」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值。&lt;/p&gt;
-&lt;h2 id=&quot;我的引语&quot;&gt;&lt;a href=&quot;#我的引语&quot; class=&quot;headerlink&quot; title=&quot;我的引语&quot;&gt;&lt;/a&gt;我的引语&lt;/h2&gt;&lt;p&gt;这是一个高仿「开眼 Eyepetizer」的短视频 Android 客户端项目，个人觉得这款 App 的 UI 设计风格很好看，界面简洁清新，通过此项目，进行相关技术的学习与整合。&lt;br&gt;
+      &lt;p&gt;&lt;img src=&quot;https://smartloong.oss-cn-shanghai.aliyuncs.com/GitHub23.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Hi，骚年，我是大 G，公众号「&lt;strong&gt;GitHub指北&lt;/strong&gt;」会推荐 GitHub 上有趣有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，欢迎关注。&lt;/p&gt;
+&lt;p&gt;今天推荐一套适合互联网企业使用的开源支付系统，支持多渠道服务商和普通商户模式。已对接&lt;code&gt;微信支付&lt;/code&gt;，&lt;code&gt;支付宝&lt;/code&gt;，&lt;code&gt;云闪付&lt;/code&gt;官方接口，支持聚合码支付。&lt;/p&gt;
+&lt;h2 id=&quot;系统架构&quot;&gt;&lt;a href=&quot;#系统架构&quot; class=&quot;headerlink&quot; title=&quot;系统架构&quot;&gt;&lt;/a&gt;系统架构&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;Jeepay 计全支付系统架构图&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https://jeequan.oss-cn-beijing.aliyuncs.com/jeepay/img/jeepay_framework.png&quot; alt=&quot;Jeepay 系统架构图&quot; title=&quot;Jeepay 系统架构图&quot;&gt;&lt;br&gt;
     
     </summary>
     
-      <category term="Flutter" scheme="http://wuxiaolong.me/categories/Flutter/"/>
+      <category term="后端" scheme="https://githubguider.github.io/categories/%E5%90%8E%E7%AB%AF/"/>
     
     
-      <category term="weibo" scheme="http://wuxiaolong.me/tags/weibo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一个人竟然撸了一个微博 APP</title>
-    <link href="http://wuxiaolong.me/2019/11/02/weibo/"/>
-    <id>http://wuxiaolong.me/2019/11/02/weibo/</id>
-    <published>2019-11-02T01:54:41.000Z</published>
-    <updated>2021-01-03T02:38:41.911Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://img-blog.csdnimg.cn/img_convert/b678d6a784d6d8ab3c827a50d552565c.png" alt=""></p><p>早上好，骚年，我是小菜，我的公众号「<strong>菜鸟翻身</strong>」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值。</p><h2 id="引语"><a href="#引语" class="headerlink" title="引语"></a>引语</h2><p>今天在 GitHub 的时候，又又又发现了一款厉害的源码，这就是 Flutter 仿微博客户端，包含首页、视频、发现、消息(仿微博聊界面)及个人中心模块，仿微博最新版本，还原微博 80%的界面，总共涉及到了几十个界面和接口，用到了 Flutter 中的大部分组件。<br><a id="more"></a><br>可以根据 GitHub 上面提供的而下载地址，去下载了这个仿写的 APP，根据提供的测试用户账号和密码也登录了一下，体验效果也非常的顺滑流畅。</p><h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2><p><img src="https://img-blog.csdnimg.cn/img_convert/b184b85807cd47128074afde25c392b6.png" alt=""></p><p><img src="https://img-blog.csdnimg.cn/img_convert/2cc4f51b5998b3f7944d32157ade38ed.png" alt=""></p><p><img src="https://img-blog.csdnimg.cn/img_convert/3639c90a142d139700eb1e3b6c89c929.png" alt=""></p><p>如果你觉得这个项目对你学习 Flutter 会有所帮助，赶紧参考一下吧。</p><h2 id="GitHub-地址"><a href="#GitHub-地址" class="headerlink" title="GitHub 地址"></a>GitHub 地址</h2><p><a href="https://github.com/huangruiLearn/flutter_hrlweibo" target="_blank" rel="noopener">https://github.com/huangruiLearn/flutter_hrlweibo</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/img_convert/b678d6a784d6d8ab3c827a50d552565c.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;早上好，骚年，我是小菜，我的公众号「&lt;strong&gt;菜鸟翻身&lt;/strong&gt;」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值。&lt;/p&gt;
-&lt;h2 id=&quot;引语&quot;&gt;&lt;a href=&quot;#引语&quot; class=&quot;headerlink&quot; title=&quot;引语&quot;&gt;&lt;/a&gt;引语&lt;/h2&gt;&lt;p&gt;今天在 GitHub 的时候，又又又发现了一款厉害的源码，这就是 Flutter 仿微博客户端，包含首页、视频、发现、消息(仿微博聊界面)及个人中心模块，仿微博最新版本，还原微博 80%的界面，总共涉及到了几十个界面和接口，用到了 Flutter 中的大部分组件。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Flutter" scheme="http://wuxiaolong.me/categories/Flutter/"/>
-    
-    
-      <category term="weibo" scheme="http://wuxiaolong.me/tags/weibo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python 100 天从新手到大师</title>
-    <link href="http://wuxiaolong.me/2019/10/02/Python-100-Days/"/>
-    <id>http://wuxiaolong.me/2019/10/02/Python-100-Days/</id>
-    <published>2019-10-02T01:54:41.000Z</published>
-    <updated>2021-01-03T02:35:31.015Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://img-blog.csdnimg.cn/img_convert/84a8f0d0a91cf09867a7852d64df56aa.png" alt=""></p><p>早上好，骚年，我是小菜，我的公众号「<strong>菜鸟翻身</strong>」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值。</p><h2 id="我的引语"><a href="#我的引语" class="headerlink" title="我的引语"></a>我的引语</h2><p>今天推荐是一个 Python 基础教程，按照教程学习，不出意外，100 天从新手到大师。<br><a id="more"></a><br>当下 Python 还是很热，简单的说，Python 是一个“优雅”、“明确”、“简单”的编程语言：</p><ul><li>学习曲线低，非专业人士也能上手</li><li>开源系统，拥有强大的生态圈</li><li>解释型语言，完美的平台可移植性</li><li>动态类型语言，支持面向对象和函数式编程</li><li>代码规范程度高，可读性强</li></ul><p>Python 在以下领域都有用武之地：</p><ul><li>后端开发 - Python / Java / Go / PHP</li><li>DevOps - Python / Shell / Ruby</li><li>数据采集 - Python / C++ / Java</li><li>量化交易 - Python / C++ / R</li><li>数据科学 - Python / R / Julia / Matlab</li><li>机器学习 - Python / R / C++ / Julia</li><li>自动化测试 - Python / Shell</li></ul><p>作为一名 Python 开发者，根据个人的喜好和职业规划，可以选择的就业领域也非常多：</p><ul><li>Python 后端开发工程师（服务器、云平台、数据接口）</li><li>Python 运维工程师（自动化运维、SRE、DevOps）</li><li>Python 数据分析师（数据分析、商业智能、数字化运营）</li><li>Python 数据挖掘工程师（机器学习、深度学习、算法专家）</li><li>Python 爬虫工程师</li><li>Python 测试工程师（自动化测试、测试开发）</li></ul><p>给初学者的几个建议：</p><p>Python 入门是不难，之后深入还得靠自己持续精进，实践是王道，去在项目成长。</p><ul><li>Make English as your working language. （让英语成为你的工作语言）</li><li>Practice makes perfect. （熟能生巧）</li><li>All experience comes from mistakes. （所有的经验都源于你犯过的错误）</li><li>Don’t be one of the leeches. （不要当伸手党）</li><li>Either outstanding or out. （要么出众，要么出局）</li></ul><h2 id="GitHub-地址"><a href="#GitHub-地址" class="headerlink" title="GitHub 地址"></a>GitHub 地址</h2><p><a href="https://github.com/jackfrued/Python-100-Days" target="_blank" rel="noopener">https://github.com/jackfrued/Python-100-Days</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/img_convert/84a8f0d0a91cf09867a7852d64df56aa.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;早上好，骚年，我是小菜，我的公众号「&lt;strong&gt;菜鸟翻身&lt;/strong&gt;」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值。&lt;/p&gt;
-&lt;h2 id=&quot;我的引语&quot;&gt;&lt;a href=&quot;#我的引语&quot; class=&quot;headerlink&quot; title=&quot;我的引语&quot;&gt;&lt;/a&gt;我的引语&lt;/h2&gt;&lt;p&gt;今天推荐是一个 Python 基础教程，按照教程学习，不出意外，100 天从新手到大师。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="Python" scheme="http://wuxiaolong.me/categories/Python/"/>
-    
-    
-      <category term="Python" scheme="http://wuxiaolong.me/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一个人竟然撸了一个网易云音乐云村</title>
-    <link href="http://wuxiaolong.me/2019/09/02/netease-cloud-music-community/"/>
-    <id>http://wuxiaolong.me/2019/09/02/netease-cloud-music-community/</id>
-    <published>2019-09-02T01:54:41.000Z</published>
-    <updated>2021-01-03T02:31:17.473Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://img-blog.csdnimg.cn/img_convert/abbed317f095d23a71f575100b3d9df6.png" alt=""></p><p>早上好，骚年，我是小 G，我的公众号「<strong>菜鸟翻身</strong>」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值。</p><h2 id="我的引语"><a href="#我的引语" class="headerlink" title="我的引语"></a>我的引语</h2><p>今天推荐的这个项目是一个参照网易云音乐云村做的小程序社区，后端技术栈为 Java，SpringBoot，MySQL，Redis，前端技术栈为 uni-app。</p><p>这个项目支持微信登录，发文本动态，发图文动态，发视频动态，关注，转发，评论，点赞，收藏等等。</p><a id="more"></a><h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2><p><img src="https://img-blog.csdnimg.cn/img_convert/2f90960c1f51efabcc352a6f96f026cf.png" alt=""></p><h2 id="项目运行"><a href="#项目运行" class="headerlink" title="项目运行"></a>项目运行</h2><h3 id="后端："><a href="#后端：" class="headerlink" title="后端："></a>后端：</h3><p>1、创建数据库，执行根目录中的 live.sql，并修改 artist 表中的微信 APPID 等配置</p><p><img src="https://img-blog.csdnimg.cn/img_convert/ccf133e66dd9ac3fa52faa1deac2877f.png" alt=""></p><p>2、使用 IDEA 导入 live-backend-mp 项目，并通过 Modules 的方式导入 live-backend-common 项目</p><p><img src="https://img-blog.csdnimg.cn/img_convert/e7b3bd01d3c26c7f94c57529a22a02a1.png" alt=""></p><p>3、修改 application-dev 中的 MySQL，Redis，阿里云 OSS 配置</p><p><img src="https://img-blog.csdnimg.cn/img_convert/25274001a8b8b607cf247f482b9d2758.png" alt=""></p><p><img src="https://img-blog.csdnimg.cn/img_convert/3a42e86b3f7f16f5c10ffe3306e40fd4.png" alt=""></p><h3 id="前端："><a href="#前端：" class="headerlink" title="前端："></a>前端：</h3><p>1、使用 Hbuilder 导入项目</p><p>2、修改 manifest.json 的 APPID 配置（微信小程序或 QQ 小程序）</p><p><img src="https://img-blog.csdnimg.cn/img_convert/34c35dfa27431253d2f841d9b9531984.png" alt=""></p><p><img src="https://img-blog.csdnimg.cn/img_convert/b395c5dbf26be5a727495c8edc67ed00.png" alt=""></p><p>3、修改 App.vue 中的 domain 配置（修改为后端项目的路径）</p><p><img src="https://img-blog.csdnimg.cn/img_convert/bfbe4ad2182dd2d66e6288d22305240b.png" alt=""></p><p>4、运行到微信小程序</p><p><img src="https://img-blog.csdnimg.cn/img_convert/b5525e1f1ab34a457eea67bc9afd612f.png" alt=""></p><h2 id="源码地址"><a href="#源码地址" class="headerlink" title="源码地址"></a>源码地址</h2><p>公号 <strong>菜鸟翻身</strong> 后台回复 <strong>网易云音乐云村</strong> 获取源码地址。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/img_convert/abbed317f095d23a71f575100b3d9df6.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;早上好，骚年，我是小 G，我的公众号「&lt;strong&gt;菜鸟翻身&lt;/strong&gt;」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值。&lt;/p&gt;
-&lt;h2 id=&quot;我的引语&quot;&gt;&lt;a href=&quot;#我的引语&quot; class=&quot;headerlink&quot; title=&quot;我的引语&quot;&gt;&lt;/a&gt;我的引语&lt;/h2&gt;&lt;p&gt;今天推荐的这个项目是一个参照网易云音乐云村做的小程序社区，后端技术栈为 Java，SpringBoot，MySQL，Redis，前端技术栈为 uni-app。&lt;/p&gt;
-&lt;p&gt;这个项目支持微信登录，发文本动态，发图文动态，发视频动态，关注，转发，评论，点赞，收藏等等。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="http://wuxiaolong.me/categories/Android/"/>
-    
-    
-      <category term="网易云音乐云村" scheme="http://wuxiaolong.me/tags/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E4%BA%91%E6%9D%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一款高仿腾讯漫画的漫画阅读类 APP</title>
-    <link href="http://wuxiaolong.me/2019/08/02/TencentComics/"/>
-    <id>http://wuxiaolong.me/2019/08/02/TencentComics/</id>
-    <published>2019-08-02T01:54:41.000Z</published>
-    <updated>2021-01-03T02:25:03.279Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://img-blog.csdnimg.cn/img_convert/bab5a1cf285a311a08dd0b09ef1f23ba.png" alt=""></p><p>早上好，骚年，我是小菜，我的公众号「<strong>菜鸟翻身</strong>」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值。</p><h2 id="我的引语"><a href="#我的引语" class="headerlink" title="我的引语"></a>我的引语</h2><p>项目中成长是最快的，实践是王道，项目中成长是最快的，多参与项目，没有项目怎么办，幸亏有 GitHub，我们要感谢那些乐于分享的人，感谢分享完整的开源项目。</p><a id="more"></a><p>这周成了推荐高仿 APP 周了，前面推荐了<a href="http://mp.weixin.qq.com/s?__biz=Mzg4NzAyNzMwMw==&amp;mid=2247484600&amp;idx=1&amp;sn=bd0fb6c53d50f8e8e25a1133a2d25d38&amp;chksm=cf91e7b0f8e66ea6fedf7fdd57ceb9d6996819bb90a9d2460966cb14f1ebfdc58076a6a21657&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">高仿微博</a>，<a href="http://mp.weixin.qq.com/s?__biz=Mzg4NzAyNzMwMw==&amp;mid=2247484602&amp;idx=1&amp;sn=181937b60f7e4f6e5bd985a1a063b336&amp;chksm=cf91e7b2f8e66ea493fa5c0ed0a8b1c6a6eaa2b610f912edc094eb1426bcb2925183589a0156&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">高仿网易云音乐</a>，今天继续推荐的是来自高仿腾讯漫画阅读类 APP，不多说，先看效果图。</p><h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2><p><img src="https://img-blog.csdnimg.cn/img_convert/e0ca4d93afa09a26cde8a5e43c349545.png" alt=""></p><h2 id="GitHub-地址"><a href="#GitHub-地址" class="headerlink" title="GitHub 地址"></a>GitHub 地址</h2><p><a href="https://github.com/zhhr1122/z_comic_new" target="_blank" rel="noopener">https://github.com/zhhr1122/z_comic_new</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/img_convert/bab5a1cf285a311a08dd0b09ef1f23ba.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;早上好，骚年，我是小菜，我的公众号「&lt;strong&gt;菜鸟翻身&lt;/strong&gt;」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值。&lt;/p&gt;
-&lt;h2 id=&quot;我的引语&quot;&gt;&lt;a href=&quot;#我的引语&quot; class=&quot;headerlink&quot; title=&quot;我的引语&quot;&gt;&lt;/a&gt;我的引语&lt;/h2&gt;&lt;p&gt;项目中成长是最快的，实践是王道，项目中成长是最快的，多参与项目，没有项目怎么办，幸亏有 GitHub，我们要感谢那些乐于分享的人，感谢分享完整的开源项目。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="http://wuxiaolong.me/categories/Android/"/>
-    
-    
-      <category term="腾讯漫画" scheme="http://wuxiaolong.me/tags/%E8%85%BE%E8%AE%AF%E6%BC%AB%E7%94%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android 图片裁剪库 uCrop</title>
-    <link href="http://wuxiaolong.me/2019/07/02/uCrop/"/>
-    <id>http://wuxiaolong.me/2019/07/02/uCrop/</id>
-    <published>2019-07-02T01:54:41.000Z</published>
-    <updated>2020-12-17T00:24:40.410Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://smartloong.oss-cn-shanghai.aliyuncs.com/GitHub11.jpeg" alt=""></p><p>早上好，骚年，我是小菜，我的公众号「<strong>菜鸟翻身</strong>」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，欢迎关注我。</p><h2 id="引语"><a href="#引语" class="headerlink" title="引语"></a>引语</h2><p>现在 Android 开发，离不开图片，必然也需要图片裁剪功能，这个实现可以调用系统的裁剪，但有些产品经理可能不满意自带的裁剪效果，因此 BB，怎么办呢？我这里推荐一个 Android 图片裁剪库 uCrop，Yalantis 出品，绝壁能让产品经理闭嘴。</p><a id="more"></a><h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2><p><img src="![](https://img-blog.csdnimg.cn/img_convert/612130e3fafac12e3e18582fb1bd943e.gif" alt=""></p><h2 id="使用示例"><a href="#使用示例" class="headerlink" title="使用示例"></a>使用示例</h2><p>1、引入 uCrop 库。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">allprojects &#123;</div><div class="line">   repositories &#123;</div><div class="line">      jcenter()</div><div class="line">      maven &#123; url <span class="string">"https://jitpack.io"</span> &#125;</div><div class="line">   &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure><p><code>implementation &#39;com.github.yalantis:ucrop:2.2.4&#39;</code> -轻巧的通用解决方案。</p><p><code>implementation &#39;com.github.yalantis:ucrop:2.2.4-native&#39;</code> - 获得本机代码的功能以保持图像质量（apk 大小约为 1.5 MB）。</p><p>2、将 UCropActivity 添加到您的 AndroidManifest.xml 中。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&lt;activity</div><div class="line">    android:name=<span class="string">"com.yalantis.ucrop.UCropActivity"</span></div><div class="line">    android:screenOrientation=<span class="string">"portrait"</span></div><div class="line">    android:theme=<span class="string">"@style/Theme.AppCompat.Light.NoActionBar"</span>/&gt;</div></pre></td></tr></table></figure><p>3、使用构建器模式配置 uCrop。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">UCrop.of(sourceUri, destinationUri)</div><div class="line">    .withAspectRatio(<span class="number">16</span>, <span class="number">9</span>)</div><div class="line">    .withMaxResultSize(maxWidth, maxHeight)</div><div class="line">    .start(context);</div></pre></td></tr></table></figure><p>4、覆盖<code>onActivityResult</code>方法并处理 uCrop 结果。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="meta">@Override</span></div><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onActivityResult</span><span class="params">(<span class="keyword">int</span> requestCode, <span class="keyword">int</span> resultCode, Intent data)</span> </span>&#123;</div><div class="line">    <span class="keyword">if</span> (resultCode == RESULT_OK &amp;&amp; requestCode == UCrop.REQUEST_CROP) &#123;</div><div class="line">        <span class="keyword">final</span> Uri resultUri = UCrop.getOutput(data);</div><div class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (resultCode == UCrop.RESULT_ERROR) &#123;</div><div class="line">        <span class="keyword">final</span> Throwable cropError = UCrop.getError(data);</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure><p>5、混淆配置。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">-dontwarn com.yalantis.ucrop**</div><div class="line">-keep <span class="class"><span class="keyword">class</span> <span class="title">com</span>.<span class="title">yalantis</span>.<span class="title">ucrop</span>** </span>&#123; *; &#125;</div><div class="line">-keep <span class="class"><span class="keyword">interface</span> <span class="title">com</span>.<span class="title">yalantis</span>.<span class="title">ucrop</span>** </span>&#123; *; &#125;</div></pre></td></tr></table></figure><h2 id="GitHub-地址"><a href="#GitHub-地址" class="headerlink" title="GitHub 地址"></a>GitHub 地址</h2><p><a href="https://github.com/Yalantis/uCrop" target="_blank" rel="noopener">https://github.com/Yalantis/uCrop</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://smartloong.oss-cn-shanghai.aliyuncs.com/GitHub11.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;早上好，骚年，我是小菜，我的公众号「&lt;strong&gt;菜鸟翻身&lt;/strong&gt;」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，欢迎关注我。&lt;/p&gt;
-&lt;h2 id=&quot;引语&quot;&gt;&lt;a href=&quot;#引语&quot; class=&quot;headerlink&quot; title=&quot;引语&quot;&gt;&lt;/a&gt;引语&lt;/h2&gt;&lt;p&gt;现在 Android 开发，离不开图片，必然也需要图片裁剪功能，这个实现可以调用系统的裁剪，但有些产品经理可能不满意自带的裁剪效果，因此 BB，怎么办呢？我这里推荐一个 Android 图片裁剪库 uCrop，Yalantis 出品，绝壁能让产品经理闭嘴。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="http://wuxiaolong.me/categories/Android/"/>
-    
-    
-      <category term="uCrop" scheme="http://wuxiaolong.me/tags/uCrop/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Facebook 开源微光效果 Shimmer</title>
-    <link href="http://wuxiaolong.me/2019/06/02/FacebookShimmer/"/>
-    <id>http://wuxiaolong.me/2019/06/02/FacebookShimmer/</id>
-    <published>2019-06-02T01:54:41.000Z</published>
-    <updated>2020-12-17T00:10:03.070Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://img-blog.csdnimg.cn/img_convert/397f2af53f15f22582f2a85a78742941.png" alt=""></p><h2 id="我的引言"><a href="#我的引言" class="headerlink" title="我的引言"></a>我的引言</h2><p>早上好，骚年，我是小菜，我的公众号「<strong>菜鸟翻身</strong>」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，欢迎关注我。</p><p>今天要推荐的是 Facebook 开源的闪光效果：Shimmer，它是一个 Android 库，它提供了一种向您的 Android 应用程序中的任何视图和文本添加闪光效果，在实际开发中可以用在页面加载指示器，最初是为 Facebook Home 开发的。</p><a id="more"></a><h2 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h2><p><img src="https://img-blog.csdnimg.cn/img_convert/7effe3906e68c8beb1241c9a4975bdfe.gif" alt=""></p><h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p>app/build.gradle：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">dependencies &#123;</div><div class="line">  implementation <span class="string">'com.facebook.shimmer:shimmer:0.5.0'</span></div><div class="line">&#125;</div></pre></td></tr></table></figure><p>代码调用：</p><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&lt;com.facebook.shimmer.ShimmerFrameLayout</div><div class="line">     android:id="@+id/shimmer_view_container"</div><div class="line">     android:layout_width="wrap_content"</div><div class="line">     android:layout_height="wrap_content"&gt;</div><div class="line">    &lt;!--你的视图--&gt;</div><div class="line">&lt;/com.facebook.shimmer.ShimmerFrameLayout&gt;</div></pre></td></tr></table></figure><p>ShimmerFrameLayout 标签上有许多自定义属性来控制效果的外观和速度，详见 GitHub 源码。</p><h2 id="GitHub-地址"><a href="#GitHub-地址" class="headerlink" title="GitHub 地址"></a>GitHub 地址</h2><p><a href="https://github.com/facebook/shimmer-android" target="_blank" rel="noopener">https://github.com/facebook/shimmer-android</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/img_convert/397f2af53f15f22582f2a85a78742941.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;我的引言&quot;&gt;&lt;a href=&quot;#我的引言&quot; class=&quot;headerlink&quot; title=&quot;我的引言&quot;&gt;&lt;/a&gt;我的引言&lt;/h2&gt;&lt;p&gt;早上好，骚年，我是小菜，我的公众号「&lt;strong&gt;菜鸟翻身&lt;/strong&gt;」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，欢迎关注我。&lt;/p&gt;
-&lt;p&gt;今天要推荐的是 Facebook 开源的闪光效果：Shimmer，它是一个 Android 库，它提供了一种向您的 Android 应用程序中的任何视图和文本添加闪光效果，在实际开发中可以用在页面加载指示器，最初是为 Facebook Home 开发的。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="http://wuxiaolong.me/categories/Android/"/>
-    
-    
-      <category term="Shimmer" scheme="http://wuxiaolong.me/tags/Shimmer/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android 骨架屏效果，了解一下</title>
-    <link href="http://wuxiaolong.me/2019/05/02/AndroidSkeleton/"/>
-    <id>http://wuxiaolong.me/2019/05/02/AndroidSkeleton/</id>
-    <published>2019-05-02T01:54:41.000Z</published>
-    <updated>2020-12-14T14:29:50.350Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://img-blog.csdnimg.cn/img_convert/bb7fa4fff50d74ab1139227ef59e8198.png" alt=""></p><p>早上好，骚年，我是小菜，我的公众号「<strong>菜鸟翻身</strong>」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，欢迎关注我。</p><p>以前做应用开发时，在数据尚未加载前一般会先给用户一个提示，最简单粗暴的方式就是菊花图，大多数做法是放一张有个性的静态图，示意正在加载数据，这样体验会好些，直到出现 Skeleton Screen（中文一般叫做骨架屏）极大地提升用户感知体验。其实一开始我并不知道这个效果叫什么名字，后来在 GitHub 看到有人开源了，赶紧 Star。今天我给大家推荐几个 Skeleton Screen 相关库，来了解学习一波。</p><a id="more"></a><h2 id="ShimmerRecyclerView"><a href="#ShimmerRecyclerView" class="headerlink" title="ShimmerRecyclerView"></a>ShimmerRecyclerView</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>A custom recycler view with shimmer views to indicate that views are loading （英语渣渣，这句话始终翻译不顺/捂脸）。</p><h3 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/275c8590d04343607f9090af87548288.gif" alt=""></p><p><img src="https://img-blog.csdnimg.cn/img_convert/9874a97cef8526e5972e98a3f007b06e.gif" alt=""></p><h3 id="源码地址"><a href="#源码地址" class="headerlink" title="源码地址"></a>源码地址</h3><p><a href="https://github.com/sharish/ShimmerRecyclerView" target="_blank" rel="noopener">https://github.com/sharish/ShimmerRecyclerView</a></p><h2 id="Skeleton"><a href="#Skeleton" class="headerlink" title="Skeleton"></a>Skeleton</h2><h3 id="简介-1"><a href="#简介-1" class="headerlink" title="简介"></a>简介</h3><p>这个库提供了一种显示骨架加载视图的简便方法，它现在使用闪存动画的内存优化版本，因此速度更快，您也可以设置更大的布局动画。</p><h3 id="效果预览-1"><a href="#效果预览-1" class="headerlink" title="效果预览"></a>效果预览</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/f847a8117ea9457b3c0dd543a267abc7.gif" alt=""></p><p><img src="https://img-blog.csdnimg.cn/img_convert/089a998e7e889a3f3fbdcfd1a668a0bb.gif" alt=""></p><h3 id="源码地址-1"><a href="#源码地址-1" class="headerlink" title="源码地址"></a>源码地址</h3><p><a href="https://github.com/ethanhua/Skeleton" target="_blank" rel="noopener">https://github.com/ethanhua/Skeleton</a></p><h2 id="spruce-android"><a href="#spruce-android" class="headerlink" title="spruce-android"></a>spruce-android</h2><h3 id="简介-2"><a href="#简介-2" class="headerlink" title="简介"></a>简介</h3><p>Spruce 是一个轻量级动画库，可帮助编排屏幕上的动画。该库同时支持 iOS。</p><h3 id="效果预览-2"><a href="#效果预览-2" class="headerlink" title="效果预览"></a>效果预览</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/c5c60f4fd84500ee43944beccaaa0cc7.gif" alt=""></p><h3 id="源码地址-2"><a href="#源码地址-2" class="headerlink" title="源码地址"></a>源码地址</h3><p><a href="https://github.com/willowtreeapps/spruce-android" target="_blank" rel="noopener">https://github.com/willowtreeapps/spruce-android</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/img_convert/bb7fa4fff50d74ab1139227ef59e8198.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;早上好，骚年，我是小菜，我的公众号「&lt;strong&gt;菜鸟翻身&lt;/strong&gt;」会推荐 GitHub 上有用的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，欢迎关注我。&lt;/p&gt;
-&lt;p&gt;以前做应用开发时，在数据尚未加载前一般会先给用户一个提示，最简单粗暴的方式就是菊花图，大多数做法是放一张有个性的静态图，示意正在加载数据，这样体验会好些，直到出现 Skeleton Screen（中文一般叫做骨架屏）极大地提升用户感知体验。其实一开始我并不知道这个效果叫什么名字，后来在 GitHub 看到有人开源了，赶紧 Star。今天我给大家推荐几个 Skeleton Screen 相关库，来了解学习一波。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="http://wuxiaolong.me/categories/Android/"/>
-    
-    
-      <category term="Skeleton" scheme="http://wuxiaolong.me/tags/Skeleton/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>三款很酷很骚气的底部导航</title>
-    <link href="http://wuxiaolong.me/2019/04/02/Navigation3/"/>
-    <id>http://wuxiaolong.me/2019/04/02/Navigation3/</id>
-    <published>2019-04-02T01:54:41.000Z</published>
-    <updated>2020-12-14T14:38:14.044Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://img-blog.csdnimg.cn/img_convert/2c1995ef25a4273055b5afbb5115df4f.png" alt=""></p><p>早上好，骚年，我是小菜，我的公众号「<strong>菜鸟翻身</strong>」会推荐 GitHub 上好玩的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，<a href="https://mp.weixin.qq.com/s/wAaGvIXR6JHLw25PKTx0JA" target="_blank" rel="noopener">欢迎关注我</a>。</p><p>底部导航栏是 APP 最常用的功能之一，想最初都是自己自定义 ViewGroup 实现，后来 使用 RadioButton，在 Material Design 谷歌官方除了 TabLayout 和 Bottom Navigation， TabLayout 也是可以实现，如果设计允许，Bottom Navigation 可以直接用，最简单省事，关于 TabLayout 和 Bottom Navigation 吴小龙同学曾经有详细介绍，见：<a href="https://mp.weixin.qq.com/s/Smad1YWQQDFZb5P_nJtFNw" target="_blank" rel="noopener">Android Design Support Library 之 TabLayout</a>和 <a href="https://mp.weixin.qq.com/s/TCZmD0_w8pfu26RuQbkzuA" target="_blank" rel="noopener">Android Design Support Library 之 BottomNavigation</a>，我这里就不介绍，今天我要着重分享我在 GitHub 看到三款效果很酷的底部导航栏，骚气的让我眼前一亮的让我只能喊，卧槽，牛逼，666。</p><a id="more"></a><h2 id="ReadableBottomBar"><a href="#ReadableBottomBar" class="headerlink" title="ReadableBottomBar"></a>ReadableBottomBar</h2><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Android 另一个 Material Design Bottom Navigation 库，所有的设计和灵感来源于 Ranjit。</p><h3 id="效果预览"><a href="#效果预览" class="headerlink" title="效果预览"></a>效果预览</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/910b1a9e54f23783d520f76998c9bf7d.gif" alt=""></p><h3 id="源码地址"><a href="#源码地址" class="headerlink" title="源码地址"></a>源码地址</h3><p><a href="https://github.com/iammert/ReadableBottomBar" target="_blank" rel="noopener">https://github.com/iammert/ReadableBottomBar</a></p><h2 id="MeowBottomNavigation"><a href="#MeowBottomNavigation" class="headerlink" title="MeowBottomNavigation"></a>MeowBottomNavigation</h2><h3 id="简介-1"><a href="#简介-1" class="headerlink" title="简介"></a>简介</h3><p>用 kotlin 编写的 Android 的简单＆弯曲＆材料底部导航。</p><h3 id="效果预览-1"><a href="#效果预览-1" class="headerlink" title="效果预览"></a>效果预览</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/2b281bb0ff59e0b2ec0cb47b036c80c3.gif" alt=""></p><h3 id="源码地址-1"><a href="#源码地址-1" class="headerlink" title="源码地址"></a>源码地址</h3><p><a href="https://github.com/shetmobile/MeowBottomNavigation" target="_blank" rel="noopener">https://github.com/shetmobile/MeowBottomNavigation</a></p><h2 id="curved-navigation-bar"><a href="#curved-navigation-bar" class="headerlink" title="curved_navigation_bar"></a>curved_navigation_bar</h2><h3 id="简介-2"><a href="#简介-2" class="headerlink" title="简介"></a>简介</h3><p>用 Flutter 编写，可以轻松实现动画曲线导航栏。</p><h3 id="效果预览-2"><a href="#效果预览-2" class="headerlink" title="效果预览"></a>效果预览</h3><p><img src="https://img-blog.csdnimg.cn/img_convert/5fcda45d8149471956b4b06feadbfea2.gif" alt=""></p><h3 id="源码地址-2"><a href="#源码地址-2" class="headerlink" title="源码地址"></a>源码地址</h3><p><a href="https://github.com/rafalbednarczuk/curved_navigation_bar" target="_blank" rel="noopener">https://github.com/rafalbednarczuk/curved_navigation_bar</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/img_convert/2c1995ef25a4273055b5afbb5115df4f.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;早上好，骚年，我是小菜，我的公众号「&lt;strong&gt;菜鸟翻身&lt;/strong&gt;」会推荐 GitHub 上好玩的项目，一分钟 get 一个优秀的开源项目，挖掘开源的价值，&lt;a href=&quot;https://mp.weixin.qq.com/s/wAaGvIXR6JHLw25PKTx0JA&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;欢迎关注我&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;底部导航栏是 APP 最常用的功能之一，想最初都是自己自定义 ViewGroup 实现，后来 使用 RadioButton，在 Material Design 谷歌官方除了 TabLayout 和 Bottom Navigation， TabLayout 也是可以实现，如果设计允许，Bottom Navigation 可以直接用，最简单省事，关于 TabLayout 和 Bottom Navigation 吴小龙同学曾经有详细介绍，见：&lt;a href=&quot;https://mp.weixin.qq.com/s/Smad1YWQQDFZb5P_nJtFNw&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Android Design Support Library 之 TabLayout
-&lt;/a&gt;和 &lt;a href=&quot;https://mp.weixin.qq.com/s/TCZmD0_w8pfu26RuQbkzuA&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Android Design Support Library 之 BottomNavigation&lt;/a&gt;，我这里就不介绍，今天我要着重分享我在 GitHub 看到三款效果很酷的底部导航栏，骚气的让我眼前一亮的让我只能喊，卧槽，牛逼，666。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="http://wuxiaolong.me/categories/Android/"/>
-    
-    
-      <category term="Navigation" scheme="http://wuxiaolong.me/tags/Navigation/"/>
+      <category term="支付" scheme="https://githubguider.github.io/tags/%E6%94%AF%E4%BB%98/"/>
     
   </entry>
   
